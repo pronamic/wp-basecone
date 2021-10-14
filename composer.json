@@ -4,7 +4,19 @@
     "description": "The Pronamic WordPress Basecone plugin allows you to connect your WordPress installation to Basecone.",
     "keywords": ["pronamic", "basecone", "wordpress"],
     "homepage": "https://github.com/pronamic/wp-basecone",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Pronamic\\WordPress\\Basecone\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
     "require-dev": {
         "pronamic/wp-coding-standards": "^1.0"
+    },
+    "require": {
+        "pronamic/wp-http": "^1.1"
     }
 }

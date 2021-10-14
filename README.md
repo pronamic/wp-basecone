@@ -16,5 +16,7 @@
 
 ## Links
 
+- https://developers.basecone.com/
+- https://developers.basecone.com/ApiReference/General
 - https://www.pronamic.nl/
 - https://www.remcotolsma.nl/

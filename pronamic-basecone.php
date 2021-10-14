@@ -22,3 +22,5 @@
  * @license   GPL-3.0-or-later
  * @package   Pronamic\WordPress\pronamic
  */
+
+require __DIR__ . '/vendor/autoload.php';
