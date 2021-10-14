@@ -7,7 +7,7 @@
 <h1 align="center">Pronamic WordPress Basecone</h3>
 
 <p align="center">
-	The Pronamic WordPress Basecone plugin allows you to connect your WordPress installation with Basecone.
+	The Pronamic WordPress Basecone plugin allows you to connect your WordPress installation to Basecone.
 </p>
 
 ## Table of contents
