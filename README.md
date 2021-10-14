@@ -12,9 +12,15 @@
 
 ## Table of contents
 
+- [Authentication](#authentication)
 - [REST API](#rest-api)
 - [WP-CLI](#wp-cli)
+- [Environment variables](#environment-variables)
 - [Links](#links)
+
+## Authentication
+
+Once you have received a `clientIdentifier` and `clientSecret` from Basecone, you can request an API user access key via the [`Authentication/ApiAccessKeys` endpoint](https://developers.basecone.com/ApiReference/ApiUserAccessKeys).
 
 ## REST API
 
@@ -23,6 +29,12 @@
 ## WP-CLI
 
 > WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.
+
+## Environment variables
+
+- `BASECONE_CLIENT_IDENTIFIER`
+- `BASECONE_CLIENT_SECRET`
+- `BASECONE_CLIENT_API_ACCESS_KEY`
 
 ## Links
 
