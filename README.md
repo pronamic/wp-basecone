@@ -30,6 +30,14 @@ Once you have received a `clientIdentifier` and `clientSecret` from Basecone, yo
 
 > WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.
 
+### Document import
+
+https://developers.basecone.com/ApiReference/DocumentImport
+
+```
+wp basecone import test.pdf --company_id=846b6ff6-8659-4ff9-813a-ce1b16c5d1bf
+```
+
 ## Environment variables
 
 - `BASECONE_CLIENT_IDENTIFIER`
