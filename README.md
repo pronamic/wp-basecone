@@ -34,7 +34,7 @@ Once you have received a `clientIdentifier` and `clientSecret` from Basecone, yo
 
 - `BASECONE_CLIENT_IDENTIFIER`
 - `BASECONE_CLIENT_SECRET`
-- `BASECONE_CLIENT_API_ACCESS_KEY`
+- `BASECONE_API_ACCESS_KEY`
 
 ## Links
 
