@@ -12,7 +12,17 @@
 
 ## Table of contents
 
+- [REST API](#rest-api)
+- [WP-CLI](#wp-cli)
 - [Links](#links)
+
+## REST API
+
+> The WordPress REST API provides an interface for applications to interact with your WordPress site by sending and receiving data as JSON (JavaScript Object Notation) objects.
+
+## WP-CLI
+
+> WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.
 
 ## Links
 
