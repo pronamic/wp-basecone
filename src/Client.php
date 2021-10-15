@@ -116,7 +116,7 @@ class Client {
 			$exception = new \Exception( $response->message(), $status );
 
 			if ( \property_exists( $data, 'code' ) && \property_exists( $data, 'message' ) ) {
-				$exception = new Error( $data->message, (int) $response->status(), $data->code, $exception );
+				$exception = new Error( $data->message, $data->code, $exception );
 
 				if ( \property_exists( $data, '_metadata' ) ) {
 					$exception->set_metadata( $data->_metadata );

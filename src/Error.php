@@ -41,12 +41,11 @@ class Error extends \Exception {
 	 * Construct error.
 	 * 
 	 * @param string     $message      Message.
-	 * @param int        $code         Code.
 	 * @param string     $error_code   Error code.
 	 * @param \Throwable $previous The previous exception used for the exception chaining.
 	 */
-	public function __construct( $message, $code, $error_code, $previous = null ) {
-		parent::__construct( $message, $code, $previous );
+	public function __construct( $message, $error_code, $previous = null ) {
+		parent::__construct( $message, 0, $previous );
 
 		$this->error_code = $error_code;
 	}
