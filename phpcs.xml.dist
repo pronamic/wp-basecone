@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<ruleset name="Pronamic Basecone rules">
+	<file>.</file>
+
+	<rule ref="PronamicWP">
+		<exclude name="WordPress.DB.DirectDatabaseQuery.DirectQuery" />
+		<exclude name="WordPress.DB.DirectDatabaseQuery.NoCaching" />
+	</rule>
+</ruleset>

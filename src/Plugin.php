@@ -10,4 +10,23 @@
 
 namespace Pronamic\WordPress\Basecone;
 
+/**
+ * Plugin.
+ */
+class Plugin {
+	/**
+	 * Setup.
+	 * 
+	 * @return void
+	 */
+	public function setup() {
+		/**
+		 * CLI.
+		 */
+		if ( defined( 'WP_CLI' ) && WP_CLI ) {
+			$cli = new CLI();
 
+			$cli->setup();
+		}
+	}
+}

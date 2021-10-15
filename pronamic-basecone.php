@@ -23,4 +23,14 @@
  * @package   Pronamic\WordPress\pronamic
  */
 
+/**
+ * Autoload.
+ */
 require __DIR__ . '/vendor/autoload.php';
+
+/**
+ * Bootstrap.
+ */
+$pronamic_basecone_plugin = new \Pronamic\WordPress\Basecone\Plugin();
+
+$pronamic_basecone_plugin->setup();
